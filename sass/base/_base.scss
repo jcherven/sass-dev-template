@@ -1,0 +1,25 @@
+/* Simple reset {{{ */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* }}} */
+
+// html {{{
+html {
+	// Make 10px = 1rem
+	font-size: 62.5%;
+
+	// Media Query Handler
+	@include respond(tabLand) { // width < 1200px
+		font-size: 56.25%; // 1rem = 9px, 9/16 = 56.25%
+	}
+	@include respond(tabPort) { // width < 900px
+		font-size: 50%; // 1rem = 8px, 8/16 = 50%
+	}
+	@include respond(bigDesktop) { // width < 1800px
+		font-size: 75%; // 1rem = 12px, 12/16 = 75%
+	}
+}
+// }}}
