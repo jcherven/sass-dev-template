@@ -30,13 +30,10 @@ npm run start
 
 There's a very rudimentary reset/normalize which sets:
 
-```css
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-```
+- margin and padding to 0 with a universal selector
+- inherited box-sizing on a universal selector with `::before` and `::after`
+- `border-box` box-sizing on the `html` element
+
 ### Units and Sizes
 
 - `sass/base/_base.scss`
