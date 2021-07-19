@@ -19,16 +19,16 @@ tabLand
 bigDesktop
 */
 @mixin respond($breakpoint) {
-	@if $breakpoint == phone {
+	@if $breakpoint == small {
 		@media only screen and (max-width: 37.5em) { @content }; //600px
 	}
-	@if $breakpoint == tabPort {
+	@if $breakpoint == midPort {
 		@media only screen and (max-width: 56.25em) { @content }; //900px
 	}
-	@if $breakpoint == tabLand {
+	@if $breakpoint == midLand {
 		@media only screen and (max-width: 75em) { @content }; //1200px
 	}
-	@if $breakpoint == bigDesktop {
+	@if $breakpoint == large {
 		@media only screen and (min-width: 112.5em) { @content }; //1800px
 	}
 }
