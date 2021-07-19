@@ -93,6 +93,8 @@ Some variables are provided for reference of my preferred conventions:
 
 - A Sass mixin for vertical and horizontal center placement:
 	- `@import absCenter;`
+- Some example utility classes in `sass/base/_utilities.scss`
+- Some example breakpoint variables for creating media queries without the handler
 
 ## To Do:
 
