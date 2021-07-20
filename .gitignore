@@ -1,2 +1,4 @@
 node_modules/
 .DS_Store
+*.comp.css
+*.prefix.css

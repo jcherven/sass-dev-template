@@ -1,0 +1,47 @@
+/*
+0 - 600px:		Phone
+600-900px:		Tablet landscape
+1200-1800px:	Normal styles
+1800px+:			Big desktop
+
+$breakpoint arguments:
+phone
+tabPort
+tabLand
+bigDesktop
+*/
+/* Simple reset {{{ */
+* {
+  margin: 0;
+  padding: 0; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+/* }}} */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem; }
+
+.u-center-text {
+  text-align: center !important; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem !important; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem !important; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-big {
+  margin-bottom: 8rem !important; }
+
+.u-margin-top-huge {
+  margin-bottom: 10rem !important; }
