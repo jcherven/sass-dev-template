@@ -13,12 +13,12 @@
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.7",
-    "concat": "^1.0.3",
-    "lite-server": "^2.6.1",
-    "node-sass": "^7.0.1",
-    "npm-run-all": "^4.1.5",
-    "postcss-cli": "^9.1.0"
+    "autoprefixer": "*",
+    "concat": "*",
+    "lite-server": "*",
+    "node-sass": "*",
+    "npm-run-all": "*",
+    "postcss-cli": "*"
   },
   "keywords": [],
   "author": "",
