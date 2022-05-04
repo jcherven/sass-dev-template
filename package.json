@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "watch:sass": "node-sass sass/main.scss css/style.comp.css -w",
     "devserver": "lite-server",
     "start": "npm-run-all --parallel devserver watch:sass",
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
@@ -13,12 +13,12 @@
     "build:css": "npm-run-all compile:sass prefix:css compress:css"
   },
   "devDependencies": {
-    "autoprefixer": "^7.2.6",
+    "autoprefixer": "^10.4.7",
     "concat": "^1.0.3",
     "lite-server": "^2.6.1",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.1",
     "npm-run-all": "^4.1.5",
-    "postcss-cli": "^8.3.1"
+    "postcss-cli": "^9.1.0"
   },
   "keywords": [],
   "author": "",
